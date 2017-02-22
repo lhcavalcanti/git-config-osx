@@ -1,5 +1,25 @@
 # Tutorial git Configs OSX
-------------------
+
+As I spend a lot of time trying to configure my terminal and git, so they
+fit my preferences on macOS, I ended up doing these tutorials below.
+
+----------
+
+On these tutorial you may use a text editor from terminal, for those users
+that have experience with, feel free to use your favorite one.
+
+To users that doesn't use an editor on terminal, I suggest trying the `nano`,
+because its simple to use and install.
+
+If you want `nano` follow steps below, otherwise jump to step 1.
+- First [installs Homebrew](https://brew.sh/), a package manage for macOS.
+- Open terminal (`cmd + space` and write `terminal`).
+- Run `brew install nano` to install `nano`.
+So open a text file: `nano path/to/file/name`.
+To save and close, just press `ctrl + x` and `enter`.
+
+----------
+
 Choose which step do you want, and roll until there:
 
 ### 1. Auto Completing
@@ -11,9 +31,7 @@ Choose which step do you want, and roll until there:
 - First [installs Homebrew](https://brew.sh/), a package manage for macOS.
 - Second opens terminal (`cmd + space` and write `terminal`):
   - On Terminal run `brew install bash-completion`
-  - Open `~/.bash_profile`
-    - You can type `nano ~/.bash_profile` to open
-    - If you doesn't have `nano`, install by `brew install nano`
+  - Open `~/.bash_profile`.
 
   - Paste the come below at `bash_profile`:
   ```
@@ -29,8 +47,6 @@ Choose which step do you want, and roll until there:
 #### 2. Terminal Color and Branch Indication
 - Open terminal (`cmd + space` and write `terminal`):
   - Open the file `~/.bash_profile`
-    - You can type `nano ~/.bash_profile` to open
-    - If you doesn't have `nano`, install by `brew install nano`
 
   - Paste at the end of `bash_profile`:
 ```
@@ -43,35 +59,35 @@ This "function" will get the branch that you are working.
   on terminal, we have some different designs.
   - Choose which PS1 do you want based on the pictures below, and copy the code
   related to the picture you want.
-  
+
 1. Design 1
   ```
   export PS1="\u@\h \[\033[32m\] | \w\[\033[33m\] | \$(parse_git_branch)\[\033[00m\] \n $ "
   ```
   ![img1] (https://github.com/lhcavalcanti/git_configs_osx/blob/master/images/%231.png?raw=true)
-  
+
     ```
     User @ Computer | path until actual folder | branch
     $ :
     ```
-    
+
 2. Design 2
   ```
     export PS1="\u@\h \[\033[32m\] | \W\[\033[33m\] | \$(parse_git_branch)\[\033[00m\] \n $ "
   ```
   ![img2] (https://github.com/lhcavalcanti/git_configs_osx/blob/master/images/%232.png?raw=true)
-  
+
     ```
     User @ Computer | actual folder | branch
     $ :
     ```
-    
+
 3. Design 3
   ```
     export PS1="\u@\h \[\033[32m\] | \w\[\033[33m\] | \$(parse_git_branch)\[\033[00m\] $ "
   ```
   ![img3] (https://github.com/lhcavalcanti/git_configs_osx/blob/master/images/%233.png?raw=true)
-  
+
     ```
     User @ Computer | path until actual folder | branch $ :
     ```
@@ -79,13 +95,13 @@ This "function" will get the branch that you are working.
     - Save and close `~/.bash_profile`
   - Run `source ~/.bash_profile` on terminal.
 
-If you use Linux please check this [tutorial] (https://www.leaseweb.com/labs/2013/08/git-tip-show-your-branch-name-on-the-linux-prompt/) 
+If you use Linux please check this [tutorial] (https://www.leaseweb.com/labs/2013/08/git-tip-show-your-branch-name-on-the-linux-prompt/)
 
 I suggest combine the commands on PS1 to fit your necessities, to understand
 all commands there and learn othesr check this [link] (https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html).
 
 
------------------
+-----------------------
 #### 3. Changing git output colors
 Although this tutorial focus on macOS users, this step also works on Linux!
 
