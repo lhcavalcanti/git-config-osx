@@ -1,10 +1,11 @@
-# git Configs
+# Tutorial git Configs OSX
 ------------------
 Choose which step do you want, and roll until there:
 
 ### 1. Auto Completing
 ### 2. Terminal Color and Branch Indication
 ### 3. Changing git output colors
+
 -----------------------
 #### 1. Auto Completing
 - First [installs Homebrew](https://brew.sh/), a package manage for macOS.
@@ -72,11 +73,16 @@ This "function" will get the branch that you are working.
     - Save and close `~/.bash_profile`
   - Run `source ~/.bash_profile` on terminal.
 
+If you use Linux please check this [link] (https://www.leaseweb.com/labs/2013/08/git-tip-show-your-branch-name-on-the-linux-prompt/) 
+
 I suggest combine the commands on PS1 to fit your necessities, to understand
 all commands there and learn other check this [link] (https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html).
 
+
 -----------------
 #### 3. Changing git output colors
+Although this tutorial focus on macOS users, this step also works on Linux!
+
 - Open terminal (`cmd + space` and write `terminal`):
   - Run git command: `git config --global -e`
     - If you want to change your git editor run:
@@ -105,7 +111,7 @@ all commands there and learn other check this [link] (https://www.cyberciti.biz/
     ```
     As you can see this files setup the colors on git commands: branch, diff
     and status. You can search others commands or change the colors.
-    
+
 ------------
 
 I hope that you enjoy it! Any suggestion feel free to open a issue!
