@@ -73,10 +73,10 @@ This "function" will get the branch that you are working.
     - Save and close `~/.bash_profile`
   - Run `source ~/.bash_profile` on terminal.
 
-If you use Linux please check this [link] (https://www.leaseweb.com/labs/2013/08/git-tip-show-your-branch-name-on-the-linux-prompt/) 
+If you use Linux please check this [tutorial] (https://www.leaseweb.com/labs/2013/08/git-tip-show-your-branch-name-on-the-linux-prompt/) 
 
 I suggest combine the commands on PS1 to fit your necessities, to understand
-all commands there and learn other check this [link] (https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html).
+all commands there and learn othesr check this [link] (https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html).
 
 
 -----------------
