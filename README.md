@@ -1,4 +1,4 @@
-# Tutorial git Configs OSX
+# Tutorial Terminal and Git Customize at MacOS
 
 As I spend a lot of time trying to configure my terminal and git, so they
 fit my preferences on macOS, I ended up doing these tutorials below.
@@ -64,7 +64,7 @@ This "function" will get the branch that you are working.
   ```
   export PS1="\u@\h \[\033[32m\] | \w\[\033[33m\] | \$(parse_git_branch)\[\033[00m\] \n $ "
   ```
-  ![img1] (https://github.com/lhcavalcanti/git_configs_osx/blob/master/images/%231.png?raw=true)
+  ![img1](https://github.com/lhcavalcanti/git_configs_osx/blob/master/images/%231.png?raw=true)
 
     ```
     User @ Computer | path until actual folder | branch
@@ -75,7 +75,7 @@ This "function" will get the branch that you are working.
   ```
     export PS1="\u@\h \[\033[32m\] | \W\[\033[33m\] | \$(parse_git_branch)\[\033[00m\] \n $ "
   ```
-  ![img2] (https://github.com/lhcavalcanti/git_configs_osx/blob/master/images/%232.png?raw=true)
+  ![img2](https://github.com/lhcavalcanti/git_configs_osx/blob/master/images/%232.png?raw=true)
 
     ```
     User @ Computer | actual folder | branch
@@ -86,7 +86,7 @@ This "function" will get the branch that you are working.
   ```
     export PS1="\u@\h \[\033[32m\] | \w\[\033[33m\] | \$(parse_git_branch)\[\033[00m\] $ "
   ```
-  ![img3] (https://github.com/lhcavalcanti/git_configs_osx/blob/master/images/%233.png?raw=true)
+  ![img3](https://github.com/lhcavalcanti/git_configs_osx/blob/master/images/%233.png?raw=true)
 
     ```
     User @ Computer | path until actual folder | branch $ :
@@ -95,10 +95,10 @@ This "function" will get the branch that you are working.
     - Save and close `~/.bash_profile`
   - Run `source ~/.bash_profile` on terminal.
 
-If you use Linux please check this [tutorial] (https://www.leaseweb.com/labs/2013/08/git-tip-show-your-branch-name-on-the-linux-prompt/)
+If you use Linux please check this [tutorial](https://www.leaseweb.com/labs/2013/08/git-tip-show-your-branch-name-on-the-linux-prompt/)
 
 I suggest combine the commands on PS1 to fit your necessities, to understand
-all commands there and learn othesr check this [link] (https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html).
+all commands there and learn othesr check this [link](https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html).
 
 
 -----------------------
@@ -138,4 +138,5 @@ Although this tutorial focus on macOS users, this step also works on Linux!
 
 I hope that you enjoy it! Any suggestion feel free to open a issue!
 
-Thanks [@lhcavalcanti] (www.twitter.com/lhcavalcanti)
+Thanks you,
+[@lhcavalcanti](www.twitter.com/lhcavalcanti)
