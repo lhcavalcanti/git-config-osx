@@ -28,7 +28,7 @@ Choose which step do you want, and roll until there:
 
 -----------------------
 #### 1. Auto Completing
-- First [installs Homebrew](https://brew.sh/), a package manage for macOS.
+- First [install Homebrew](https://brew.sh/), a package manage for macOS.
 - Second opens terminal (`cmd + space` and write `terminal`):
   - On Terminal run `brew install bash-completion`
   - Open `~/.bash_profile`.
